@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tables Example</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 60%;
+            margin-bottom: 30px;
+            background-color: #b3e0e5;
+        }
+
+        th, td {
+            border: 1px solid #999;
+            text-align: left;
+            padding: 8px;
+        }
+
+        /* Rounded table style */
+        .rounded-table td, .rounded-table th {
+            border: 2px solid #348f91;
+            border-radius: 10px;
+        }
+
+        .rounded-table {
+            border-collapse: separate;
+            border-spacing: 0 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Standard Table -->
+    <table>
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Jill</td>
+            <td>Smith</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>Eve</td>
+            <td>Jackson</td>
+            <td>94</td>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>Doe</td>
+            <td>80</td>
+        </tr>
+    </table>
+
+    <!-- Rounded Table -->
+    <table class="rounded-table">
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Jill</td>
+            <td>Smith</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>Eve</td>
+            <td>Jackson</td>
+            <td>94</td>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>Doe</td>
+            <td>80</td>
+        </tr>
+    </table>
+
+</body>
+</html>
